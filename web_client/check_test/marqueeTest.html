@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ol >li{
+            float: left;
+            width:200px;
+            padding:0px;
+            margrin:0px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/liMarquee.css">
+</head>
+<body>
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script src="../assets/js/jquery.liMarquee.js"></script>
+<script>
+    $(function () {
+        var i = 1;
+        $("#str").liMarquee(
+            {
+               /* moveStart:function () {
+                i++;
+                $("#count").text(i);
+                },*/
+                direction:'right'
+            }
+        )
+    })
+</script>
+<marquee width=200px scrollamount=10 >
+    <ul>
+        <li >23</li>
+        <li >34234</li>
+        <li >35434</li>
+    </ul>
+
+</marquee>
+<div id="str">
+    <!--<ol>
+        <li >66p啪啪啪</li>
+        <li >6666</li>
+    </ol>-->
+    <div>dfsdf</div>
+    <div>dfdsf</div>
+    <div>fdfd</div>
+</div>
+<div id="count">66</div>
+
+</body>
+</html>

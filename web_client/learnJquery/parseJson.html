@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="json"></div>
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script>
+    $(function () {
+        $.getJSON("center.json","",function (data) {
+            var newData = {"centerViewReportList":[],"odd":[]};
+            $.each(data.centerViewReportList, function (i, item) {
+                if (i%2==1) {
+                    newData.centerViewReportList.push(item)
+                }
+                if (i%2==0) {
+                    newData.odd.push(item);
+                }
+            });
+            $.each(newData.centerViewReportList,function (i, item) {
+                var str = $("<div></div>").text(item.index+item.areaName);
+                $("body").append(str);
+            })
+            $("body").append("<hr>");
+            $.each(newData.odd,function (i, item) {
+                var str = $("<div></div>").text(item.index+item.areaName);
+                $("body").append(str);
+            })
+
+        })
+//        $.parseJSON()
+
+    });
+</script>
+</body>
+</html>

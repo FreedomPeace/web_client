@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AlphaFade</title>
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<h1>我是h1标签</h1>
+<button id="action" class="btn ">hide</button>
+
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script>
+    $("#action").on("click",function (event) {
+        $("h1").fadeToggle(1000,function (event) {
+            console.log(event);
+        });//hide 和show 之间来回切换。
+        var v1;
+        if ($(this).text()=="show") {
+            v1 = "hide";
+        }else {
+            v1 = "show";
+        }
+        $(this).text(v1);
+    });
+//    $("#action").trigger("click");//通过代码触发一次点击事件
+</script>
+</body>
+</html>

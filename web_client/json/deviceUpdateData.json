@@ -1,0 +1,356 @@
+{
+  "subCenterDeviceUpdateList": [
+    {
+      "deviceUpdates": "1",
+      "customerManagerUpdates": "64",
+      "subCenter": "淄博",
+      "updatePercent": "1.56"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "114",
+      "subCenter": "潍坊",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "131",
+      "subCenter": "济南",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "8",
+      "subCenter": "芜湖",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "100",
+      "subCenter": "太原",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "55",
+      "subCenter": "合肥",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "36",
+      "subCenter": "宜昌",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "100",
+      "subCenter": "青岛",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "119",
+      "subCenter": "徐州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "19",
+      "subCenter": "镇江",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "88",
+      "subCenter": "南京",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "178",
+      "subCenter": "长沙",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "190",
+      "subCenter": "郑州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "146",
+      "subCenter": "武汉",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "53",
+      "subCenter": "绍兴",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "73",
+      "subCenter": "金华",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "42",
+      "subCenter": "宁波",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "118",
+      "subCenter": "杭州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "24",
+      "subCenter": "扬州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "86",
+      "subCenter": "无锡",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "96",
+      "subCenter": "昆明",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "112",
+      "subCenter": "苏州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "108",
+      "subCenter": "贵阳",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "63",
+      "subCenter": "常州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "145",
+      "subCenter": "上海",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "374",
+      "subCenter": "深圳",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "125",
+      "subCenter": "东莞",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "112",
+      "subCenter": "成都",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "69",
+      "subCenter": "佛山",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "90",
+      "subCenter": "柳州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "148",
+      "subCenter": "重庆",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "86",
+      "subCenter": "唐山",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "207",
+      "subCenter": "石家庄",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "239",
+      "subCenter": "北京",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "77",
+      "subCenter": "烟台",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "70",
+      "subCenter": "天津",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "88",
+      "subCenter": "大连",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "71",
+      "subCenter": "洛阳",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "123",
+      "subCenter": "西安",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "19",
+      "subCenter": "泰州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "42",
+      "subCenter": "嘉兴",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "19",
+      "subCenter": "湖州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "79",
+      "subCenter": "温州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "121",
+      "subCenter": "哈尔滨",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "45",
+      "subCenter": "南通",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "100",
+      "subCenter": "厦门",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "92",
+      "subCenter": "海口",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "65",
+      "subCenter": "珠海",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "150",
+      "subCenter": "长春",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "65",
+      "subCenter": "桂林",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "33",
+      "subCenter": "鞍山",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "125",
+      "subCenter": "南宁",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "76",
+      "subCenter": "中山",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "113",
+      "subCenter": "沈阳",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "109",
+      "subCenter": "福州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "251",
+      "subCenter": "广州",
+      "updatePercent": "0"
+    },
+    {
+      "deviceUpdates": "0",
+      "customerManagerUpdates": "69",
+      "subCenter": "南昌",
+      "updatePercent": "0"
+    }
+  ],
+  "deviceUpdateRate": "0",
+  "totalDeviceUpdate": "0",
+  "topTenOfSubcenterList": [],
+  "numberOfDeviceUpdateList": [
+    {
+      "name": "淄博",
+      "value": "1"
+    }
+  ],
+  "topTenOfUpdateRateList": []
+}

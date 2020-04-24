@@ -1,0 +1,574 @@
+{
+  "centerViewReportList": [
+    {
+      "index": 1,
+      "areaName": "鞍山市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 2,
+      "areaName": "北京市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 3,
+      "areaName": "常州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 4,
+      "areaName": "长春市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 5,
+      "areaName": "长沙市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 6,
+      "areaName": "成都市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 7,
+      "areaName": "大连市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 8,
+      "areaName": "东莞市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 9,
+      "areaName": "佛山市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 10,
+      "areaName": "福州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 11,
+      "areaName": "广州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 12,
+      "areaName": "桂林市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 13,
+      "areaName": "贵阳市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 14,
+      "areaName": "哈尔滨市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 15,
+      "areaName": "海口市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 16,
+      "areaName": "杭州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 17,
+      "areaName": "合肥市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 18,
+      "areaName": "湖州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 19,
+      "areaName": "济南市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 20,
+      "areaName": "嘉兴市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 21,
+      "areaName": "金华市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 22,
+      "areaName": "昆明市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 23,
+      "areaName": "柳州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 24,
+      "areaName": "洛阳市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 25,
+      "areaName": "南昌市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 26,
+      "areaName": "南京市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 27,
+      "areaName": "南宁市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 28,
+      "areaName": "南通市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 29,
+      "areaName": "宁波市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 30,
+      "areaName": "青岛市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 31,
+      "areaName": "上海市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 32,
+      "areaName": "绍兴市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 33,
+      "areaName": "深圳市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 34,
+      "areaName": "沈阳市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 35,
+      "areaName": "石家庄市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 36,
+      "areaName": "苏州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 37,
+      "areaName": "泰州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 38,
+      "areaName": "太原市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 39,
+      "areaName": "唐山市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 40,
+      "areaName": "天津市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 41,
+      "areaName": "潍坊市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 42,
+      "areaName": "温州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 43,
+      "areaName": "无锡市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 44,
+      "areaName": "芜湖市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 45,
+      "areaName": "武汉市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 46,
+      "areaName": "西安市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 47,
+      "areaName": "厦门市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 48,
+      "areaName": "徐州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 49,
+      "areaName": "烟台市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 50,
+      "areaName": "扬州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 51,
+      "areaName": "宜昌市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 52,
+      "areaName": "镇江市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 53,
+      "areaName": "郑州市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 54,
+      "areaName": "中山市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 55,
+      "areaName": "重庆市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 56,
+      "areaName": "珠海市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    },
+    {
+      "index": 57,
+      "areaName": "淄博市",
+      "enterTotal": "10500",
+      "loginCount": "8000",
+      "personAvgCount": "1.31",
+      "localEnter": "200",
+      "localLogin": "100",
+      "localPerAvgEnter": "2.00"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>adding content</title>
+</head>
+<body>
+    <h1 style="font-size: inherit">在原来的内容基础上，追加内容</h1>
+    <p id="demo1">Hello</p>
+    <p id="demo2"  >Hello</p>
+    <hr>
+    <h1>add content 添加内容</h1>
+    <div id="addContent">addContent</div>
+    <script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#demo1").prepend("<b>prepend,</b>");
+            $("#demo1").append("<i>,append</i>");
+            $("#demo1").css({"background-color":"blue","color":"white"});
+
+            $("#demo2").before("<b>before,</b>");
+            $("#demo2").after("<i>,after</i>");
+
+            addContent();
+        });
+
+        function addContent() {
+            $("#addContent").append("<b> success</b>");
+        }
+
+    </script>
+</body>
+</html>

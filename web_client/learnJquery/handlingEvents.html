@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>handlingEvents</title>
+</head>
+<body>
+<h1> //第一种处理Event监听回调的方式<br>
+    $("#username").keydown(function () {<br>
+    $("div").text($("#username").val());<br>
+    });</h1>
+<h2>
+    //第二种处理Event监听回调的 方式<br>
+    $("#username").on("keydown", function () {<br>
+    $("div").text($("#username").val());<br>
+    });
+</h2>
+<h3>请输入你的大名</h3>
+<input type="text" id="username">
+<div>
+</div>
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script>
+    //第一种处理Event监听回调的方式
+    /*$("#username").keydown(function () {
+        $("div").text($("#username").val());
+    });*/
+    //第二种处理Event监听回调的 方式
+    $("#username").on("keydown", function () {
+        $("div").text($("#username").val());
+    });
+
+    $(function () {
+        //alert("document loaded2");
+    })
+    $("document").ready(function () {
+        //alert("document loaded");
+    })
+
+</script>
+</body>
+</html>

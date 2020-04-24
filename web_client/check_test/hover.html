@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            color:rgba(0,0,0,0.4)
+        }
+    </style>
+</head>
+
+<body>
+<div>hover me</div>
+<ul id="hover">
+    <li value="3">11</li>
+    <li value="5">22</li>
+    <li>33</li>
+    <li>44</li>
+    <li>55</li>
+</ul>
+
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script>
+    $("#hover li").on({
+        mouseenter: function () {
+            alert(this.value);
+        },
+        mouseout:function () {
+
+        }
+    });
+</script>
+</body>
+
+</html>

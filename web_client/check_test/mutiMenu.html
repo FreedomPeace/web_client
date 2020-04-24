@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <link rel="stylesheet"
+          href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu > .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -6px;
+            margin-left: -1px;
+            -webkit-border-radius: 0 6px 6px 6px;
+            -moz-border-radius: 0 6px 6px;
+            border-radius: 0 6px 6px 6px;
+        }
+
+        .dropdown-submenu:hover > .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-submenu > a:after {
+            display: block;
+            content: " ";
+            float: right;
+            width: 0;
+            height: 0;
+            border-color: transparent;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-left-color: #ccc;
+            margin-top: 5px;
+            margin-right: -10px;
+        }
+
+        .dropdown-submenu:hover > a:after {
+            border-left-color: #fff;
+        }
+
+        .dropdown-submenu.pull-left {
+            float: none;
+        }
+
+        .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+    </style>
+</head>
+
+<body>
+<ul class="nav nav-pills" style="margin-left: 40%">
+    <li class="dropdown">
+        <a href="#" class="btn btn-large" data-toggle="dropdown">cyan111<i class="caret"></i></a>
+        <ul class="dropdown-menu">
+            <li><a href="#">qiao1</a></li>
+            <li><a href="#">qiao2</a></li>
+            <li><a href="#">qiao3</a></li>
+        </ul>
+    </li>
+    <li class="dropdown " style="list-style: none ;width: 100%;margin-top: 20px;padding:0px">
+        <a href="javascript;" id="zhixiaoSelect" class="dropdown-toggle" data-toggle="dropdown"
+           style="padding:10px !important;color:black;background-color:white;">请选择片区</a>
+        <ul class="dropdown-menu animated">
+            <li id="nation"><a href="#">全国</a></li>
+            <li class="dropdown-submenu "><a href="#1">片区一</a></li>
+            <li class="dropdown-submenu "><a href="#2">片区二</a></li>
+            <li class="dropdown-submenu "><a href="#3">片区三</a></li>
+            <li class="dropdown-submenu "><a href="#4">片区四</a></li>
+            <li class="dropdown-submenu "><a href="#5">片区五</a></li>
+        </ul>
+    </li>
+</ul>
+<div class="dropup">
+    <a href="#" class="btn btn-large" data-toggle="dropdown">cyan333<i class="caret"></i></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">chao1</a></li>
+        <li><a href="#">chao2</a></li>
+        <li><a href="#">chao3</a></li>
+    </ul>
+</div>
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+
+        $.getJSON("../json/center.json", "", function (data) {
+            //数据的分组
+            dataGroup(data);
+            //初始化分中心二级选项菜单
+            initAreaSecOption();
+        });
+//        $(".dropdown-submenu").append(ul);
+//        $(".dropdown-submenu").each(function (i,item) {
+//            var ul = $("<ul></ul>").addClass("dropdown-menu pull-right");
+//            var a = $("<a href='#'></a>").text(i);
+//            var li = $("<li value='44'></li>").attr("value",33);
+//            $(li).append(a);
+//            $(ul).append(li);
+//            $(li).click(function () {
+//                alert($(this).attr("value"));
+//            })
+//            $(item).append(ul);
+//        });
+
+    });
+
+
+    //初始化分中心二级选项菜单
+    function initAreaSecOption() {
+        $(".dropdown-submenu").each(function (i, itemLi) {
+            var data;
+            switch (i) {
+                case 0:
+                    data = mData.area1;
+                    break;
+                case 1:
+                    data = mData.area2;
+                    break;
+                case 2:
+                    data = mData.area3;
+                    break;
+                case 3:
+                    data = mData.area4;
+                    break;
+                case 4:
+                    data = mData.area5;
+                    break;
+            }
+            if (data.length <= 0)
+                return;
+            var ul = $("<ul></ul>").addClass("dropdown-menu");
+            $.each(data, function (i, item) {
+                /*$.each(data,function (i,item) {
+                 var a = $("<a href='#'></a>").text(item.centerName);
+                 var li = $("<li ></li>").attr("value",item.centerId);
+                 $(li).click(function(){
+                 //获取li的value值，即是分中心城市的centerId
+                 alert($(this).text());
+                 var queryCondition = {"centerId"  :$(this).attr("value")};
+                 });
+                 $(li).append(a);
+                 $(ul).append(li);
+                 })*/
+                var a = $("<a href='#'></a>").text(item.centerName);
+                var li = $("<li ></li>").attr("value", item.centerId);
+                $(li).click(function () {
+                    //获取li的value值，即是分中心城市的centerId
+                    alert($(this).text());
+                    var queryCondition = {"centerId": $(this).attr("value")};
+                });
+                $(li).append(a);
+                $(ul).append(li);
+
+            })
+            $(itemLi).prepend(ul);
+        });
+    }
+    //数据分组成五个片区
+    var mData = {"area1": [], "area2": [], "area3": [], "area4": [], "area5": []};
+    function dataGroup(data) {
+        $.each(data.centerViewReportList, function (i, item) {
+            if (item.areaName == "片区一") {
+                mData.area1.push(item)
+            } else if (item.areaName == "片区二") {
+                mData.area2.push(item)
+            } else if (item.areaName == "片区三") {
+                mData.area3.push(item)
+            } else if (item.areaName == "片区四") {
+                mData.area4.push(item)
+            } else if (item.areaName == "片区五") {
+                mData.area5.push(item)
+            }
+        });
+    }
+</script>
+</body>
+</html>

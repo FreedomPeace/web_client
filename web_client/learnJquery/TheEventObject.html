@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TheObjectEvent</title>
+</head>
+<body>
+<h3>
+    textView.setOnClickListener( new OnClickListener(){<br>
+        public void onClick(View view){<br>
+            showToast();<br>
+        }<br>
+    });
+</h3>
+<a href="addingContent.html">Click Me</a>
+<input type="text" >
+<div id="keydownContent"></div>
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script>
+    /*trigger 是触发器*/
+    $("a").on("click",function (event) {
+        //event properties and methods
+        if (event.pageX==null) {
+            alert("trigger clicked");
+            return;
+        }
+        alert(event.pageX+":::"+event.pageY);
+        event.preventDefault();//prevent default action of the event
+    });
+    $("input").keydown(function (event) {
+        $("#keydownContent").html(event.which);
+    });
+    $("a").trigger("click");//触发a链接标签的一次点击事件
+</script>
+</body>
+</html>

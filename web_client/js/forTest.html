@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="content">for test</div>
+<p id="json">dfsdfs</p>
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $("#content").click(function () {
+
+
+        });
+        $.getJSON("../json/center.json", "", function (data) {
+            //forTest(data);
+            $("#json").html(data.toString());
+            $.each(data,function (i,item) {
+                $("#content").text(item);
+            })
+
+        });
+    });
+
+</script>
+</body>
+</html>

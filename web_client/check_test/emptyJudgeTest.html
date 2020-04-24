@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>卡中心直销进件实时战报</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+            name="viewport">
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body class="center-block">
+<div>
+    <input class="input-sm" placeholder="请输入你的姓名" id="username">
+    <button class="btn btn-success" id="queryId">查询身份证号</button>
+    <hr>
+    <select id="city" class=" form-control col-sm-2">
+        <option value="">上海</option>
+        <option value="2">南京</option>
+        <option value="1">天津</option>
+    </select>
+    <button class="btn btn-success" id="cityQuery">城市查询</button>
+</div>
+<!-- jQuery 2.2.0 -->
+<script type="text/javascript" src="../assets/plugins/jQuery/jQuery-2.2.0.min.js"></script>
+<script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    //查询全国的城市和小组数据
+    $(function () {
+        $("#queryId").click(function () {
+            var username = $("#username").val();
+            if (!username) {
+                //TODO TIP 用户名为空，即没有输入任何信息
+                alert("username is null");
+                return
+            }else if (username) {
+                alert("username.length is "+username.length);
+            }
+        })
+        $("#cityQuery").click(function () {
+            var city = $("#city").val();
+            if (city == null ) {
+                alert("city is null");
+                return
+            }else if (city.length<=0) {
+                alert("city.length is "+city.length);
+            }
+        })
+    });
+
+</script>
+</body>
+</html>
